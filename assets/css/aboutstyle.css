@@ -1,0 +1,168 @@
+
+body {
+	background: linear-gradient(135deg, #71b7e6, #9b59b6);
+	padding: 0rem;
+	margin: 0;
+}
+
+.topp img {
+	height: 5%;
+	width: 100%;
+}
+
+#container {
+	flex-direction: column;
+	background: rgba(255, 255, 255, .3);
+	margin: 0%;
+	padding: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.head {
+	font-size: 28;
+	font-family: serif;
+	text-align: center;
+}
+
+.box {
+	align-content: center;
+	min-height: 25vh;
+	width: 100%;
+	padding: 1;
+}
+
+.box p {
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+
+.word {
+	font-size: 25px;
+	font-family: cursive;
+}
+
+video {
+	width: 50%;
+	height: 40%;
+}
+
+#tags {
+	background: rgba(255, 255, 255, .3);
+	margin: 0%;
+	padding: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.list {
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list .item {
+	padding: 40px;
+	width: 350px;
+	position: relative;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+	border-radius: 4 px;
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.list .item .icon {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 50%;
+	font-size: 40px;
+	font-weight: 700px;
+	transition: 1s;
+}
+
+.list .item:nth-child(1) .icon {
+	box-shadow: 0 0 0 0 #e91e63;
+	background: #e91e63;
+}
+
+.list .item:nth-child(1) :hover.icon {
+	box-shadow: 0 0 0 400px #e91e63;
+}
+
+.list .item:nth-child(2) .icon {
+	box-shadow: 0 0 0 0 #d4b21b;
+	background: #d4b21b;
+}
+
+.list .item:nth-child(2) :hover.icon {
+	box-shadow: 0 0 0 400px #d4b21b;
+}
+
+.list .item:nth-child(3) .icon {
+	box-shadow: 0 0 0 0 #e43e14;
+	background: #e43e14;
+}
+
+.list .item:nth-child(3) :hover.icon {
+	box-shadow: 0 0 0 400px #e43e14;
+}
+
+.list .item .content {
+	position: relative;
+	z-index: 1;
+	transition: 0.5s;
+}
+
+.list .item :hover.content {
+	color: #000;
+}
+
+.list .item .content h3 {
+	font-size: 20px;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.list .item .content p {
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	background-color: #5165d3;
+ /* Green */
+	border: none;
+	color: rgb(108, 192, 218);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.btn:hover {
+	background-color: rgb(80, 141, 165);
+	margin-top: 10px;
+    text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+}
